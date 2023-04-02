@@ -1,9 +1,9 @@
 <template>
   <div>
-111
+    111
   </div>
 </template>
 
-<script  lang="ts">
+<script lang="ts">
 </script>
 
