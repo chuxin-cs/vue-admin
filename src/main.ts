@@ -9,6 +9,11 @@ import 'element-plus/dist/index.css';
 
 app.use(ElementPlus);
 
+// store
+import store from "./store";
+
+app.use(store);
+
 
 // 挂载
 app.mount('#app')

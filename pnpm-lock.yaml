@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@vitejs/plugin-vue': ^4.1.0
   element-plus: ^2.3.2
+  pinia: ^2.0.33
   typescript: ^4.9.3
   vite: ^4.2.0
   vue: ^3.2.47
@@ -10,6 +11,7 @@ specifiers:
 
 dependencies:
   element-plus: registry.npmmirror.com/element-plus/2.3.2_vue@3.2.47
+  pinia: registry.npmmirror.com/pinia/2.0.33_hmuptsblhheur2tugfgucj7gc4
   vue: registry.npmmirror.com/vue/3.2.47
 
 devDependencies:
@@ -456,6 +458,12 @@ packages:
       '@vue/compiler-dom': registry.npmmirror.com/@vue/compiler-dom/3.2.47
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.47
 
+  registry.npmmirror.com/@vue/devtools-api/6.5.0:
+    resolution: {integrity: sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/devtools-api/-/devtools-api-6.5.0.tgz}
+    name: '@vue/devtools-api'
+    version: 6.5.0
+    dev: false
+
   registry.npmmirror.com/@vue/reactivity-transform/3.2.47:
     resolution: {integrity: sha512-m8lGXw8rdnPVVIdIFhf0LeQ/ixyHkH5plYuS83yop5n7ggVJU+z5v0zecwEnX7fa7HNLBhh2qngJJkxpwEEmYA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/reactivity-transform/-/reactivity-transform-3.2.47.tgz}
     name: '@vue/reactivity-transform'
@@ -768,6 +776,27 @@ packages:
     name: picocolors
     version: 1.0.0
 
+  registry.npmmirror.com/pinia/2.0.33_hmuptsblhheur2tugfgucj7gc4:
+    resolution: {integrity: sha512-HOj1yVV2itw6rNIrR2f7+MirGNxhORjrULL8GWgRwXsGSvEqIQ+SE0MYt6cwtpegzCda3i+rVTZM+AM7CG+kRg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pinia/-/pinia-2.0.33.tgz}
+    id: registry.npmmirror.com/pinia/2.0.33
+    name: pinia
+    version: 2.0.33
+    peerDependencies:
+      '@vue/composition-api': ^1.4.0
+      typescript: '>=4.4.4'
+      vue: ^2.6.14 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@vue/devtools-api': registry.npmmirror.com/@vue/devtools-api/6.5.0
+      typescript: registry.npmmirror.com/typescript/4.9.5
+      vue: registry.npmmirror.com/vue/3.2.47
+      vue-demi: registry.npmmirror.com/vue-demi/0.13.11_vue@3.2.47
+    dev: false
+
   registry.npmmirror.com/postcss/8.4.21:
     resolution: {integrity: sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss/-/postcss-8.4.21.tgz}
     name: postcss
@@ -836,7 +865,6 @@ packages:
     version: 4.9.5
     engines: {node: '>=4.2.0'}
     hasBin: true
-    dev: true
 
   registry.npmmirror.com/vite/4.2.1:
     resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vite/-/vite-4.2.1.tgz}
