@@ -2,6 +2,8 @@
   <div class="app-container">
     <h1>{{ name }}</h1>
     <el-button @click="updateName('123')">按钮</el-button>
+    
+    <router-view></router-view>
   </div>
 </template>
 
