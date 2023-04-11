@@ -5,6 +5,7 @@ const app = createApp(App)
 
 // router
 import router from './router';
+
 app.use(router);
 
 // Element-Plus
@@ -21,3 +22,8 @@ app.use(store);
 
 // 挂载
 app.mount('#app')
+
+
+import axios from "./apis/request";
+
+console.log(axios);
