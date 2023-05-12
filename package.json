@@ -8,6 +8,25 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chuxin-cs/vue-admin"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "admin",
+    "vue-admin",
+    "vue3-admin",
+    "vite",
+    "vite-admin",
+    "element-plus",
+    "element-plus-admin",
+    "ts",
+    "typescript",
+    "vite",
+    "pinia"
+  ],
   "dependencies": {
     "axios": "^1.3.5",
     "element-plus": "^2.3.2",

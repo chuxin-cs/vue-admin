@@ -1,29 +1,21 @@
 import {createApp} from 'vue';
 import App from './App.vue';
+import router from './router';
+import store from "./store";
+
+// 加载 plugins
+import {loadPlugins} from '@/plugins';
+
+// css
+import 'element-plus/dist/index.css';
 
 const app = createApp(App)
 
-// router
-import router from './router';
-
-app.use(router);
-
-// Element-Plus
-import ElementPlus from 'element-plus';
-import 'element-plus/dist/index.css';
-
-app.use(ElementPlus);
-
-// store
-import store from "./store";
-
-app.use(store);
+/** 加载插件 **/
+loadPlugins(app)
+/** 加载自定义指令 **/
 
 
-// 挂载
+app.use(store).use(router);
 app.mount('#app')
 
-
-import axios from "./apis/request";
-
-console.log(axios);
