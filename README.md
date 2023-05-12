@@ -1,7 +1,7 @@
 # ⚡ 简介
 一个免费开源的中后台管理系统基础解决方案，基于 Vue3、TypeScript、Element Plus、Pinia 和 Vite 等主流技术
 
-# 特性
+# 🌱 特性
 - Vue3：采用 Vue3 + script setup 最新的 Vue3 组合式 API
 - Element Plus：Element UI 的 Vue3 版本
 - Pinia: 更加优雅的vuex
@@ -15,7 +15,7 @@
 - Prettier：代码格式化
 - Axios：发送网络请求（已封装好）
 
-# 功能
+# 🍰 功能
 - 错误页面: 403、404
 
 # 🚀 开发
@@ -38,7 +38,7 @@ pnpm i
 pnpm dev
 ```
 
-📦️ 多环境打包
+# 📦️ 多环境打包
 ```shell
 # 构建预发布环境
 pnpm build:stage
